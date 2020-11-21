@@ -1,10 +1,10 @@
 Name: faf
-Version: 2.3.0
+Version: 2.3.2
 Release: 1%{?dist}
 Summary: Software Problem Analysis Tool
 License: GPLv3+
-URL: https://github.com/abrt/faf/
-Source0: https://github.com/abrt/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
+URL: https://github.com/ZLBer/faf/
+Source0: https://github.com/ZLBer/faf/archive/2.3.2.tar.gz
 
 BuildArch: noarch
 
