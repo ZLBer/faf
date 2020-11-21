@@ -145,7 +145,7 @@ def validate_ureport2(ureport) -> bool:
     UREPORT_CHECKER.check(ureport)
 
     osplugin = systems[ureport["os"]["name"]]
-    # osplugin.validate_ureport(ureport["os"])
+    osplugin.validate_ureport(ureport["os"])
     osplugin.validate_packages(ureport["packages"])
 
     problemplugin = problemtypes[ureport["problem"]["type"]]
